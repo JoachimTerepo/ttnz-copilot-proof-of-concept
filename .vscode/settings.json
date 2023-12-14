@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/0e73d4cf-f9c6-466f-8bc3-82d642ca2d4a/resourceGroups/Testing-Group/providers/Microsoft.Web/sites/ttnz-figma-concept-copilot-concept",
+    "appService.deploySubpath": "."
+}
