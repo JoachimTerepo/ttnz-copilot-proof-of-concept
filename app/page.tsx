@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center">
       <div className="bg-indigo-900 self-stretch flex w-full flex-col justify-center items-stretch max-md:max-w-full">
         <div className="flex-col overflow-hidden relative flex min-h-[729px] w-full items-stretch pb-12 max-md:max-w-full">
-          <img
+          <image
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/41b2706767c178c1c236e35a6b63392619ee647eebf454458db702e602a16cf3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
             className="absolute h-full w-full object-cover object-center inset-0"
@@ -13,7 +13,7 @@ export default function Home() {
           <div className="relative bg-slate-700 flex w-full flex-col items-center pt-4 px-16 max-md:max-w-full max-md:px-5">
             <div className="flex w-full max-w-6xl items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
               <div className="flex items-start justify-between gap-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd093d3d1ab39257bce66ea067320ca6ecd5c162dc90e48752df4a45d88f6c49?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-[6.07] object-contain object-center w-[170px] overflow-hidden shrink-0 max-w-full self-start"
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
-            <img
+            <image
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9af071261ede91d85826c7094414363bd3c0bd3731c4fa1c819a570a0f49b29e?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
               className="aspect-[1.39] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-9"
@@ -99,14 +99,14 @@ export default function Home() {
           <div className="max-md:max-w-full max-md:pr-5">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/c5fc8d97f59f0faf79128bdca906169d9cfdc68ddd27595506ac88a36a9d3846?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-[1.8] object-contain object-center w-full items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
                 />
               </div>
               <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
-                <img
+                <image
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/deccb06d0450270cd6635fd6a796373cf5dc79f98a86382e44eda29e439daba8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-[1.92] object-contain object-center w-full items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
@@ -147,7 +147,7 @@ export default function Home() {
               Our sources:
               <br />
             </div>
-            <img
+            <image
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2df7cd65046d7ed13b4ab35eb2449a74c9bc69f6bd2f812a83341d5a6db1b580?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
               className="aspect-[10.39] object-contain object-center w-[343px] overflow-hidden max-w-full mt-1.5"
@@ -156,7 +156,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex-col fill-indigo-900 overflow-hidden self-stretch relative flex min-h-[801px] w-full justify-center items-center px-16 py-12 max-md:max-w-full max-md:px-5">
-        <img
+        <image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1391dce6d97c37684b215145aa81f737d79327ce9fe9260cd0fce57fe3ea405?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
           className="absolute h-full w-full object-cover object-center inset-0"
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
         <div className="relative overflow-x-auto bg-indigo-500 z-[1] flex mt-0 w-full max-w-[1156px] flex-col justify-center rounded-lg items-start max-md:max-w-full max-md:mt-0">
           <div className="flex-col overflow-hidden relative z-[1] flex min-h-[633px] mb-0 w-full pt-7 pb-12 px-20 max-md:max-w-full max-md:mb-2.5 max-md:px-5">
-            <img
+            <image
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/48979aeffa5f7e2e7465e3fe2ad6a6dc6492757778bd243eb1c81db523b5c5cb?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
               className="absolute h-full w-full object-cover object-center inset-0"
@@ -191,7 +191,7 @@ export default function Home() {
                 <div className="text-indigo-900 text-base font-semibold leading-6 grow whitespace-nowrap">
                   Auckland
                 </div>
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/01d5de75ee84b3d74ff0751f551ef15f40fc43d350eb7690b14883932c1dd005?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-[2] object-contain object-center w-3 stroke-[2px] stroke-indigo-500 overflow-hidden self-center shrink-0 max-w-full my-auto"
@@ -205,7 +205,7 @@ export default function Home() {
               Avondale
             </div>
             <div className="relative z-[1] flex w-[193px] max-w-full items-stretch justify-between gap-5 ml-1 mt-24 self-start max-md:ml-2.5 max-md:mt-10">
-              <img
+              <image
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/975cd012030aea62fe37a9a515c8f7697743f21910dd41ed645ee558a0257548?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                 className="aspect-[0.56] object-contain object-center w-10 overflow-hidden shrink-0 max-w-full ml-0 mr-auto mt-10 mb-6"
@@ -223,7 +223,7 @@ export default function Home() {
       <div className="self-stretch z-[1] mt-0 w-full max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[16%] max-md:w-full max-md:ml-0">
-            <img
+            <image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/df1c6dd38a5d56e283351610d16506e5c2b78534a6a8359b5e71975f50e22dad?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
               className="aspect-[0.3] object-contain object-center w-[237px] overflow-hidden shrink-0 max-w-full mt-[631px] max-md:mt-10"
@@ -235,7 +235,7 @@ export default function Home() {
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                   <div className="flex flex-col items-stretch w-3/5 max-md:w-full max-md:ml-0">
                     <div className="flex grow flex-col items-center ml-0 py-px max-md:max-w-full max-md:mt-10">
-                      <img
+                      <image
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b3b0afd53098b1bcd37a80770e3f8945575beaa3ae456914909565a2ca03c6d?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                         className="aspect-[1.47] object-contain object-center w-[22px] fill-white overflow-hidden max-w-full"
@@ -252,7 +252,7 @@ export default function Home() {
                         </div>
                         <div className="self-stretch flex items-stretch justify-between gap-2 mt-3.5 max-md:max-w-full max-md:flex-wrap">
                           <div className="bg-indigo-500 flex justify-between gap-4 pl-4 pr-6 py-2 rounded-md items-start max-md:pr-5">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e07904a00dcb03ff70f8c839d71408831d0b88664393b7cd82d60307ce2b2df?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -262,7 +262,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="bg-indigo-500 flex justify-between gap-4 px-5 py-2 rounded-md items-start">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/eff4913a428b57cd16719ef75376f7a6067d9d331fbc5081b06b26941876ef90?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -286,7 +286,7 @@ export default function Home() {
                         </div>
                         <div className="self-stretch flex items-stretch justify-between gap-1.5 max-md:max-w-full max-md:flex-wrap">
                           <div className="border flex justify-between gap-2 pl-3.5 pr-5 py-2 rounded-md border-solid border-indigo-900 border-opacity-30 items-start">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/5747296f282058b1bd420a14191e3b52a55b91b140786f1d3461ff21bc5304a3?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -296,7 +296,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="border flex justify-between gap-2 pl-4 pr-5 py-2 rounded-md border-solid border-indigo-900 border-opacity-30 items-start">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/a26019d7862773c0dffde8a7cbae02725d53bab5825db13839628715e7a931cf?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -308,7 +308,7 @@ export default function Home() {
                         </div>
                         <div className="self-stretch flex items-stretch justify-between gap-1 mt-1.5 max-md:max-w-full max-md:flex-wrap">
                           <div className="border flex justify-between gap-2 pb-2.5 px-4 rounded-md border-solid border-indigo-900 border-opacity-30 items-start">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/367c848889ba1b03183f031bb8ff1a8f72c1eb16124d324f9a9b986182f0bab0?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full mt-2.5"
@@ -327,7 +327,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="items-stretch border flex justify-between gap-2 px-4 py-2.5 rounded-md border-solid border-indigo-900 border-opacity-30">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b9df6e4d6b0d609f79642786b453e7b35652c5fde48e48bc6aa678e8a2479e8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -339,7 +339,7 @@ export default function Home() {
                         </div>
                         <div className="self-stretch z-[1] flex justify-between gap-0 items-end max-md:max-w-full max-md:flex-wrap max-md:justify-center">
                           <div className="items-stretch border flex gap-2 mt-2.5 px-4 py-2.5 rounded-md border-solid border-indigo-900 border-opacity-30">
-                            <img
+                            <image
                               loading="lazy"
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/073bc9bbbbd60c231ebeb53027d7e2cfd115dd183e7fadcdc1af0fb0caf2cec8?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                               className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full"
@@ -353,7 +353,7 @@ export default function Home() {
                               <div className="flex flex-col items-stretch pb-3 rounded border-[0.378px] border-solid border-zinc-300">
                                 <div className="bg-green-600 flex shrink-0 h-1 flex-col" />
                                 <div className="flex flex-col justify-center mt-3 px-14 py-1 items-start max-md:px-5">
-                                  <img
+                                  <image
                                     loading="lazy"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c09b3ab7ca5295cd11e8f7881508e60d921a2e5aba978e69fb2297ee189f577?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                                     className="aspect-square object-contain object-center w-4 overflow-hidden max-w-full"
@@ -405,7 +405,7 @@ export default function Home() {
               <div className="mt-32 max-md:max-w-full max-md:mt-10">
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                   <div className="flex flex-col items-stretch w-2/5 max-md:w-full max-md:ml-0">
-                    <img
+                    <image
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/aaabfb30b0c0255f9938c61dc4bc946a785a78f18a282aafe2ddae31dc079e93?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                       className="aspect-[1.45] object-contain object-center w-full justify-center items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
@@ -460,7 +460,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-                    <img
+                    <image
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bd25642e0ac48bfef2293b481512fe842dec7c13002eb6e80f18478092fba43b?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                       className="aspect-[1.42] object-contain object-center w-full justify-center items-center overflow-hidden grow max-md:max-w-full max-md:mt-10"
@@ -475,7 +475,7 @@ export default function Home() {
       <div className="w-full max-w-[1004px] mt-24 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-            <img
+            <image
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/315cd7a60f18ebe5fcf6a4ba2eb5bc770c246aa26d01c786a35f5b5d1ad5abcd?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
               className="aspect-[1.39] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
@@ -515,7 +515,7 @@ export default function Home() {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[32%] max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col items-start max-md:mt-10">
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/3db6fdcf9fc7b5c51c8efd5e10f4c9c9e9c1ad97c37d096d96bcb514bf78ce22?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-[1.04] object-contain object-center w-[53px] overflow-hidden max-w-full"
@@ -531,7 +531,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col items-start max-md:mt-10">
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/91700bab84642b0e3cf62eb4fe9f56b10a7d26c3420e8b61504f1509e55260ab?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-square object-contain object-center w-[51px] overflow-hidden max-w-full"
@@ -547,7 +547,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-stretch w-[35%] ml-5 max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col items-start max-md:mt-10">
-                <img
+                <image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/7fd483f7ffce7ff82b75e8a4cda63edb5f6172e069c67da9e82d414b4466f4f5?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                   className="aspect-square object-contain object-center w-[51px] overflow-hidden max-w-full"
@@ -582,7 +582,7 @@ export default function Home() {
         <div className="bg-indigo-900 flex w-full flex-col justify-center items-center px-16 py-9 max-md:max-w-full max-md:px-5">
           <div className="flex w-full max-w-[1170px] flex-col items-stretch max-md:max-w-full">
             <div className="flex w-full items-stretch justify-between gap-5 px-px max-md:max-w-full max-md:flex-wrap">
-              <img
+              <image
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/26ed6c0ec0f9025b027778b5d1bf3da1f53cc8d1210e0935e2790f59bc77a741?apiKey=1c91b3a335184570bbfd43ce5f3632dd&"
                 className="aspect-[4.25] object-contain object-center w-[255px] overflow-hidden shrink-0 max-w-full"
